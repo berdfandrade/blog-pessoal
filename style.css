@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+body{
+    background-color: #fbfbf3
+}
+
+.container{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-right: 10px;
+}    
+.titulo{
+    color: rgb(16, 16, 16);
+    margin-top: 90px;
+    text-align: center;
+    letter-spacing: -10px;
+    font-size: 150px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.titulo:hover{
+    opacity: 0.5;
+}
+
+
+.sub-titulo{
+    margin-top: 25px;
+    color: rgb(26, 26, 26);
+    text-justify: left;
+    text-align: center;
+    font-size: 20px
+}
+
+.cont-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo {
+    padding: 50px;
+    width: 450px;
+    height: auto;
+  }
+
+@media (max-width: 768px) {
+    .container{
+        width: 90%;       
+    }
+    .titulo{
+        letter-spacing: -5px;
+        font-size: 80px;
+    }
+    .sub-titulo{
+        margin-top: 20px;
+        font-size: 15px
+    }
+    .logo{
+        max-width: 70%;
+    }
+    p{
+        max-width: 80%;
+    }
+}
+
+.autor{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(26, 26, 26);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+p{  
+    text-justify: center;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+}
+
+.data{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    color: rgb(26, 26, 26);
+    font-family: 'Inter', sans-serif;
+    inline-size: 0.5;
+    font-size: 50px;
+    
+}
+
+
+  nav ul {
+    
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    
+    left: 20px;
+    font-size: 20px;
+    float: left;
+  }
+  
+  nav li a {
+    
+    border-radius: 5px;
+    display: block;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    color: #fbfbf3;
+    background-color: #111;
+    
+  }
+
+  nav li a:active {
+    color: #fbfbf3;
+    background-color: #111;
+  }
+
+  
